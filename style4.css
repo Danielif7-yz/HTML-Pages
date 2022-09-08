@@ -1,0 +1,87 @@
+h1 {
+    border: 1px solid lightblue;
+    color: black;
+    background-color: rgb(207, 207, 219);
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 700px;
+    width: 500px;
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main {
+    max-width: 500px;
+    margin: auto;
+    background-image: radial-gradient(circle, red, yellow, green);
+    padding: 1px;
+}
+
+#button {
+    border: 3px solid black;
+    padding: 20px 200px;
+    background-color: rgb(0, 140, 255);
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: green;
+    color: black;
+    border-radius: 1px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 auto;
+}
